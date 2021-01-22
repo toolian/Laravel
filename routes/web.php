@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$date = date("D, j F, g:i");
+    return view('weather', compact('date'));
 });
