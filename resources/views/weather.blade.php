@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="rus">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
       </div>
 
       <div class="block-weather-temperature">
-        <p>-16 <img src="" alt=""> пасмурно</p>
+        <p>{{$temperature}}°C<img src="" alt=""> {{$weather}}</p>
       </div>
   </div>
 </body>
